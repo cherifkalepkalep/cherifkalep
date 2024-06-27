@@ -1,0 +1,340 @@
+*{
+    color: rgb(5, 1, 15);
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteneur{
+    width: 100%;
+    height: 1000px;
+   
+}
+
+/* haut */
+.haut {
+    width: 100%;
+    height: 100px;
+    background-color: #918f8f;
+    justify-content: space-between;
+    display: flex;
+    border: 2px solid white;
+    /* background-image:linear-gradient(rgba(0 , 0 , 0, 0.8) ,rgba(0 , 0 , 0, 0.8)), url("/IMG/BG/206567-Linux-Kali_Linux_NetHunter-Kali_Linux.jpg"); */
+   
+}
+
+.droit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+}
+.menus {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.menus ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid white ;
+    padding: 5px;
+    /* background-color: #5a5252; */
+    border-radius: 5px;
+   
+}
+a 
+{
+    transition: 00.06s ease;
+}
+
+
+a:hover
+{
+    background-color: #4c4494;
+    text-transform: uppercase;
+}
+ 
+ .search {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#searchbox input{
+    color: black;
+}
+
+
+/* milieu */
+.milieu {
+    width: auto;
+    height: 600px;
+    background-image: linear-gradient(rgba(0 , 0 , 0, 0.8) ,rgba(0 , 0 , 0, 0.8)),url("IMG/BG/32746773.webp" );
+    border: 2px solid white;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.titre h2
+{
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom:2px  solid  #4c4494;
+    border-top:2px  solid  #4c4494 ;
+
+}
+.slogan{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    /* border: 2px dashed blue; */
+}
+.slogan p{
+    color: #fff;
+    font-size: 25px;
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+
+/* bouttons */
+    
+.boutton
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.boutton a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4c4494;
+    border-radius:  0 15px  0 15px;
+
+}
+
+.btn {
+    transition: 00.06s ease;
+}
+.btn:hover{
+ text-transform: uppercase;
+ border-radius: 10px;
+ background-color: #ebeee8;
+ color: brown;
+}
+/* pieds */
+.pieds {
+    width: 100%;
+    height: 300px;
+    background-image:linear-gradient(rgba(0 , 0 , 0, 0.9) ,rgba(0 , 0 , 0, 0.9)), url("IMG/BG/206567-Linux-Kali_Linux_NetHunter-Kali_Linux.jpg");
+    border: 2px solid white;
+}
+
+/* images de bas */
+.img1
+{
+    width: 20%;
+    height: 200px;
+    border: 1px  solid white;
+    border-radius: 5px;
+    box-shadow: 10px 0 10px  0 black;
+}
+/* mise en forme images */
+.img2
+{
+    width: 20%;
+    height: 200px;
+    border: 1px  solid white;
+    border-radius: 5px;
+    box-shadow: 10px 0 10px  0 black;
+}
+
+.img3
+{
+    width: 20%;
+    height: 200px;
+    border: 1px  solid white;
+   border-radius: 5px;
+   box-shadow: 10px 0 10px  0 black;
+}
+
+
+.section 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 20px; */
+    padding: 25px;
+}
+
+.footer{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-top: 2px solid white;
+    padding: 10px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* page formulaire */
+
+.barre
+{
+    background: #444;
+    width: 90px;
+    height: 5px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+.formulaire
+{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    align-items: center;
+
+}
+
+.formulaire form
+{
+    width: 90%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: table;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+/* MISE EN FPRME FORMULAIRE D'INSCRIPTION */
+
+/* mise en forme titre h2 */
+form h2
+{
+   text-align: center;
+   text-transform: uppercase;
+   border-bottom: 3px solid brown;
+}
+
+form input{
+    background-color: #e7d95c60;
+}
+/* mise en forme btn */
+
+#btn{
+    background-color:rgb(43, 28, 28);
+    color: rgb(241, 245, 245);
+}
+
+
+.form1
+{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    float: left;
+    width: 40%;
+}
+
+.form2
+{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    float: right;
+    width: 40%;
+}
+
+/* mise en forme bouttons */
+
+.button
+{
+    display: flex;
+    /* justify-content: space-between; */
+    /* background: #f1860b; */
+}
+
+
+/* mise en forme page blog(deuxieme page ) */
+
+/* milieublog */
+.milieublog
+{
+    width: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0 , 0 , 0, 0.8) ,rgba(0 , 0 , 0, 0.8)),url("IMG/BG/32746773.webp" );
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+/* sous boite milieublog */
+.b
+{
+    width: 45%;
+    height:500px;
+    border: 2px solid white;
+    background-color: #3a3939;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+
+/* media queries */
+
+@media screen and (max-width: 720px){
+    body
+    {
+        font-size: 50%;
+      
+    }
+    H1
+    {
+        font-size: 60%;
+    }
+
+}

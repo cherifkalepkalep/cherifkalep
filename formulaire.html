@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles.css ">
+</head>
+<body>
+    <div class="conteneur">
+        <div class="haut">
+            <!-- logo -->
+            <div class="droit">
+                <img src="/IMG/LOGO/logo_AI-removebg-preview.png" alt="" width="40" height="40">
+                <h1>ALL-IT  </h1>
+                
+            </div>
+            <!-- zone de recherche -->
+           <div class="search">
+            <form action="#" id="searchbox">
+                <input type="text">
+                <input type="submit" value="Search">
+            </form>
+           </div>
+            <!-- menu -->
+            <div class="menus">
+                <ul>
+                    <li><a href="accueil.html">home</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="formulaire.html">sign</a></li>
+                    <li><a href="plateforme.html">contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    <!--fin  entete -->
+    <div class="formulaire">
+       <div class="barre"></div><br>
+       <form action="#">
+            <h2>formulaire d'inscription</h2>
+            <!-- form partie 1 -->
+            <div class="form1">
+                <label for="name">Nom Complet <span>*</span></label><br>
+                <input type="text" id="name" placeholder="votre nom" required class="input"><br><br>
+                <label for="adresse">Adresse <span>*</span></label><br>
+                <input type="text" id="adresse" placeholder="votre Adresse" required class="input"><br><br>
+                <label for="Telephone">Telephone <span>*</span></label><br>
+                <input type="text" id="Telephone" placeholder="votre Telephone" required class="input"><br><br>
+                <label for="age">Age <span>*</span></label><br>
+                <input type="number" id="age" placeholder="votre age" required class="input"><br><br>
+                <label for="email">Email <span>*</span></label><br>
+                <input type="email" id="email" placeholder="esoft.nz@gmail.com" required class="input"><br><br>
+
+                  <!-- buttons -->
+                <!-- <div class="button"> -->
+                    <input type="submit" value="Envoyer" id="btn"><br>
+                <!-- </div> -->
+            </div>
+           
+
+             <!-- partie 2 form -->
+   
+             <div class="form2">
+                <label for="pays">Pays <span>*</span></label><br>
+                <select name="pays" id="pays" class="input">
+                    <option value="">RDC <img src="/IMG/autres/drapeau.png" alt="" width="12" height="12"></option>
+                    <option value="">Cuba</option>
+                    <option value="">Canada</option>
+                    <option value="">USA</option>
+                    <option value="">Japon</option>
+                    <option value="">Corre</option>
+                </select><br><br>
+                <label for="datenaisse">Date de Naissance <span>*</span></label><br>
+                <input type="date" name="datenaisse" id="datenaisse" class="input"><br><br>
+                <label for="comment">Commentaire <span>*</span></label>
+                <textarea name="comment" id="comment" cols="10" rows="5" class="input" placeholder="votre Commentaire"></textarea><br><br>
+                <label for="sexe">Sexe <span>*</span></label><br>
+                Homme<input type="radio"  name="sexe" checked>&nbsp;
+                Femme<input type="radio"  name="sexe" checked>&nbsp;<br><br>
+
+                 <!-- buttons -->
+                <!-- <div class="button"> -->
+                    <input type="submit" value="Annuler" id="btn"><br>
+                <!-- </div> -->
+            </div>
+           
+        
+       </form>
+    </div>
+   
+</body>
+</html>
